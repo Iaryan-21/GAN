@@ -76,10 +76,10 @@ The DCGAN consists of two main parts: the Generator and the Discriminator.
 
 ### Output
 1. Cycle GAN (Yosemite Dataset)
-![Cycle GAN OPT]()
+![Cycle GAN OPT](https://github.com/Iaryan-21/GAN/blob/main/assets/cycle_gan_opt.png)
 
 2. DC GAN (MNIST Dataset)
-![DC GAN OPT]()
+![DC GAN OPT](https://github.com/Iaryan-21/GAN/blob/main/assets/DC_GAN_opt.png)
 
 ### Reference
 
