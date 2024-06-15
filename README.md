@@ -52,6 +52,10 @@ G).
 Discriminator Architecture:
 
 Each discriminator consists of a series of ConvBlocks with increasing feature dimensions. The last ConvBlock produces a single output value indicating whether the input image is real or fake.
-Reference :
+
+### DEEP CONVOLUTION GAN
+![Deep Convolution GAN](https://github.com/Iaryan-21/GAN/blob/main/assets/DC_GAN.webp)
+
+### Reference :
 
 https://arxiv.org/pdf/1703.10593
