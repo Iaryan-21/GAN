@@ -3,7 +3,7 @@
 
 ### CYCLE GAN
 
-![Cycle GAN]()
+![Cycle GAN](https://github.com/Iaryan-21/GAN/blob/main/assets/CycleGAN.webp)
 The CycleGAN consists of two main parts: the Generators (CycleGenerator) and the Discriminators.
 Generators:
 
