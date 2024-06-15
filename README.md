@@ -25,7 +25,7 @@ The CycleGAN consists of two main parts: the Generators (CycleGenerator) and the
 
 **Generators**:
 - There are two generators: \( G \) (transforms images from domain X to domain Y) and \( F \) (transforms images from domain Y to domain X).
-- 
+  
 **Encoder Part of Generators**:
 - The encoder part of the CycleGenerator uses a series of ConvBlocks to progressively reduce the spatial dimensions of the input image while increasing the number of feature channels.
   
