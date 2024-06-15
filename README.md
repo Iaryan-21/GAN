@@ -49,7 +49,7 @@ The CycleGAN consists of two main parts: the Generators (CycleGenerator) and the
 ### DEEP CONVOLUTION GAN
 
 <p align="center">
-  <img src="sandbox:/mnt/data/An_architecture_diagram_of_a_DCGAN_model_with_labe.png" alt="Deep Convolution GAN" width="400"/>
+  <img src="https://github.com/Iaryan-21/GAN/blob/main/assets/DC_GAN.webp" alt="Deep Convolution GAN" width="400"/>
 </p>
 
 The DCGAN consists of two main parts: the Generator and the Discriminator.
