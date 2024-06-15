@@ -74,6 +74,12 @@ The DCGAN consists of two main parts: the Generator and the Discriminator.
 - The process continues with the second and third fully connected layers, each followed by a LeakyReLU activation, progressively increasing the size of the output.
 - The final fully connected layer produces the generated image, which is activated by a Tanh function to scale pixel values between -1 and 1.
 
+### Output
+1. Cycle GAN (Yosemite Dataset)
+![Cycle GAN OPT]()
+
+2. DC GAN (MNIST Dataset)
+![DC GAN OPT]()
 
 ### Reference
 
