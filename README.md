@@ -1,1 +1,1 @@
-# Generative_Adversarial_Network_Exs
+# Generative_Adversarial_Networks
