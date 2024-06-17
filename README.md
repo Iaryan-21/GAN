@@ -13,6 +13,8 @@ Generative Adversarial Networks (GANs) are a class of machine learning framework
 
 - The Summer to Winter Yosemite dataset consists of images of Yosemite National Park captured in summer and winter. This dataset is used for image-to-image translation tasks, where the goal is to transform a summer scene into a winter scene and vice versa.
 
+**Celeb A dataset**:
+- The CelebA dataset contains over 200,000 celebrity images with 40 attribute annotations per image, spanning various poses and backgrounds. It is widely used for tasks like facial attribute recognition, face generation, and identity-based applications.
 
 
 ### CYCLE GAN
