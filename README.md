@@ -83,7 +83,11 @@ The DCGAN consists of two main parts: the Generator and the Discriminator.
 2. DC GAN (MNIST Dataset)
 ![DC GAN OPT](https://github.com/Iaryan-21/GAN/blob/main/assets/DC_GAN_opt.png)
 
+3. Progressive GAN (Celeb A dataset)
+![PRO GAN Output](https://github.com/Iaryan-21/GAN/blob/main/assets/output.png)
+
 ### Reference
 
 - https://arxiv.org/pdf/1703.10593
 - https://arxiv.org/pdf/1511.06434
+- https://arxiv.org/pdf/1710.10196
