@@ -9,7 +9,7 @@ Generative Adversarial Networks (GANs) are a class of machine learning framework
 
 - The MNIST dataset contains 70,000 images of handwritten digits (0-9) in grayscale, each of size 28x28 pixels. It is commonly used for training and testing in the field of machine learning and computer vision.
 
-**[Summer to Winter Yosemite Dataset](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/)**:
+**[Summer to Winter Yosemite Dataset](https://www.kaggle.com/datasets/balraj98/summer2winter-yosemite)**:
 
 - The Summer to Winter Yosemite dataset consists of images of Yosemite National Park captured in summer and winter. This dataset is used for image-to-image translation tasks, where the goal is to transform a summer scene into a winter scene and vice versa.
 
