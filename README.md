@@ -76,6 +76,11 @@ The DCGAN consists of two main parts: the Generator and the Discriminator.
 - The process continues with the second and third fully connected layers, each followed by a LeakyReLU activation, progressively increasing the size of the output.
 - The final fully connected layer produces the generated image, which is activated by a Tanh function to scale pixel values between -1 and 1.
 
+### Progrsessive GAN
+<p align="center">
+  <img src="https://github.com/Iaryan-21/GAN/blob/main/assets/PRO_GAN.webp" alt="Deep Convolution GAN" width="400"/>
+</p>
+
 ### Output
 1. Cycle GAN (Yosemite Dataset)
 ![Cycle GAN OPT](https://github.com/Iaryan-21/GAN/blob/main/assets/cycle_gan_opt.png)
