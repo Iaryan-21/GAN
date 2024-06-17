@@ -2,18 +2,20 @@
 
 Generative Adversarial Networks (GANs) are a class of machine learning frameworks designed by Ian Goodfellow and his colleagues in 2014. They consist of two neural networks, a Generator and a Discriminator, which compete against each other in a game-theoretic scenario. The Generator tries to create data that is indistinguishable from real data, while the Discriminator tries to distinguish between real and generated data. This adversarial process drives both networks to improve their capabilities, resulting in the Generator producing highly realistic data.
 
+
 ### Datasets
 
-**MNIST Number Dataset**:
+**[MNIST Number Dataset](http://yann.lecun.com/exdb/mnist/)**:
 
 - The MNIST dataset contains 70,000 images of handwritten digits (0-9) in grayscale, each of size 28x28 pixels. It is commonly used for training and testing in the field of machine learning and computer vision.
 
-**Summer to Winter Yosemite Dataset**:
+**[Summer to Winter Yosemite Dataset](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/)**:
 
 - The Summer to Winter Yosemite dataset consists of images of Yosemite National Park captured in summer and winter. This dataset is used for image-to-image translation tasks, where the goal is to transform a summer scene into a winter scene and vice versa.
 
-**Celeb A dataset**:
+**[CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)**:
 - The CelebA dataset contains over 200,000 celebrity images with 40 attribute annotations per image, spanning various poses and backgrounds. It is widely used for tasks like facial attribute recognition, face generation, and identity-based applications.
+
 
 ### CYCLE GAN
 
