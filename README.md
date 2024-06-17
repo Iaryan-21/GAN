@@ -2,7 +2,6 @@
 
 Generative Adversarial Networks (GANs) are a class of machine learning frameworks designed by Ian Goodfellow and his colleagues in 2014. They consist of two neural networks, a Generator and a Discriminator, which compete against each other in a game-theoretic scenario. The Generator tries to create data that is indistinguishable from real data, while the Discriminator tries to distinguish between real and generated data. This adversarial process drives both networks to improve their capabilities, resulting in the Generator producing highly realistic data.
 
-
 ### Datasets
 
 **MNIST Number Dataset**:
@@ -15,7 +14,6 @@ Generative Adversarial Networks (GANs) are a class of machine learning framework
 
 **Celeb A dataset**:
 - The CelebA dataset contains over 200,000 celebrity images with 40 attribute annotations per image, spanning various poses and backgrounds. It is widely used for tasks like facial attribute recognition, face generation, and identity-based applications.
-
 
 ### CYCLE GAN
 
@@ -76,10 +74,22 @@ The DCGAN consists of two main parts: the Generator and the Discriminator.
 - The process continues with the second and third fully connected layers, each followed by a LeakyReLU activation, progressively increasing the size of the output.
 - The final fully connected layer produces the generated image, which is activated by a Tanh function to scale pixel values between -1 and 1.
 
-### Progrsessive GAN
+### Progressive GAN
+
 <p align="center">
   <img src="https://github.com/Iaryan-21/GAN/blob/main/assets/PRO_GAN.webp" alt="Deep Convolution GAN" width="400"/>
 </p>
+
+- Progressive Growing of GANs (PRO GAN) enhances training stability and quality by progressively increasing the resolution of generated images.
+- Training starts with a low resolution, such as 4x4 pixels, and gradually adds layers to both the generator and discriminator, increasing the resolution to the final target size.
+- The initial stages involve generating and discriminating images at low resolutions, allowing the networks to focus on coarse features.
+- New layers are added to the generator and discriminator as training progresses, gradually increasing the resolution (e.g., 8x8, 16x16, 32x32 pixels).
+- Each new layer is smoothly blended with the existing network using a fade-in technique, ensuring stable training transitions.
+- The generator consists of ConvTranspose2D, BatchNorm, and ReLU layers that upsample the image resolution progressively.
+- The discriminator consists of Conv2D and LeakyReLU layers that downsample the image resolution progressively.
+- The generator starts with a random latent vector, which is fed through the network to produce an image of increasing resolution as layers are added.
+- The discriminator receives either real or generated images and progressively analyzes them at higher resolutions as layers are added.
+- This approach improves training stability by allowing the networks to learn coarse features before fine details, reducing the risk of instability and making PRO GANs effective for high-resolution image generation.
 
 ### Output
 1. Cycle GAN (Yosemite Dataset)
